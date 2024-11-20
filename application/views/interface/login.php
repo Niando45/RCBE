@@ -24,7 +24,7 @@
                                     <div class="mb-3"><input class="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="Entrez votre mot de passe" name="password"  required></div>
                                     <div class="mb-3">
                                         
-                                    </div><button class="btn btn-outline-success d-block btn-user w-100 mb-3" type="submit">Se connecter</button>  
+                                    </div><button id="submitButton" class="btn btn-outline-success d-block btn-user w-100 mb-3" type="submit">Se connecter</button>  
                                 </form>
                                 
                                 <div class="text-center"><p>Vous n'avez pas de compte? <br> Veuillez</p><a class="small" href="<?php echo base_url() ; ?>Page/create_account">S'inscrire sur RCBE?</a></div>
